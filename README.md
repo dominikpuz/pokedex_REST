@@ -9,9 +9,11 @@ All pokemon data taken from https://pokeapi.co
 ### Request
 
 `GET /pokemons/`
+
   curl -i http://localhost:8080/pokemons
   
 ### Response
+
   HTTP/1.1 200
   Vary: Origin
   Vary: Access-Control-Request-Method
@@ -25,7 +27,9 @@ All pokemon data taken from https://pokeapi.co
 ## Get pokemon details
 
 ### Request
+
 `GET /pokemon/{name}`
+
   curl -i http://localhost:8080/pokemon/pikachu
   
 ### Response
